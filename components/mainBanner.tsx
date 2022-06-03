@@ -1,73 +1,38 @@
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { GiFruitBowl, GiHotMeal, GiSodaCan } from 'react-icons/gi';
-import { TbMeat } from 'react-icons/tb';
-import CategoryTile from './categoryTile';
-import Link from 'next/link';
-import meatpic from '../public/images/meat.jpg'
-import fruitspic from '../public/images/fruits.jpeg'
-import mealspic from '../public/images/meals.jpg'
-import beveragespic from '../public/images/beverages.jpg'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
+import { useState } from 'react'
 
+import CategoryTile from './categoryTile'
+import Link from 'next/link'
+import categories from '../data/categories'
 
 const MainBanner = () => {
-  const [selectedCategory, setSelectedCategory] = useState<number>(0);
-
-  const categories = [
-    {
-      id: 1,
-      title: 'Frutas & verduras',
-      icon: <GiFruitBowl className="text-5xl" />,
-      image: fruitspic,
-      path: '/super/verduras'
-    },
-    {
-      id: 2,
-      title: 'Carnicería',
-      icon: <TbMeat className="text-5xl" />,
-      image: meatpic,
-      path: '/super/carniceria'
-    },
-    {
-      id: 3,
-      title: 'Bebidas',
-      icon: <GiSodaCan className="text-5xl" />,
-      image: beveragespic,
-      path: '/super/bebidas'
-
-    },
-    {
-      id: 4,
-      title: 'Platillos',
-      icon: <GiHotMeal className="text-5xl" />,
-      image: mealspic,
-      path: '/super/platillos'
-
-    },
-  ];
+  const [selectedCategory, setSelectedCategory] = useState<number>(0)
 
   return (
     <motion.main
       animate={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -10 }}
+      
     >
-      <motion.div className={'grid lg:grid-cols-3 md:gap-6 p-4 lg:p-6 gap-y-4'}>
-        <motion.div className={'flex flex-col col-span-1 gap-6'}>
+      <motion.div className={'lg:grid-cols-7 grid lg:gap-4 gap-y-4 pt-8 lg:px-4 lg:py-12 '}>
+
+        {/* banner text left side*/}
+        <motion.div className={'gap-8 lg:gap-12 flex flex-col text-center px-4 lg:col-span-3'}>
           <motion.h2
             className={
-              'font-semibold text-5xl md:text-6xl lg:text-7xl font-serif'
+              'font-semibold font-main text-6xl'
             }
-          >
+          > 
             Todo lo que busca, en la puerta de su hogar.
           </motion.h2>
-          <motion.p>
+          <motion.p className='text-md'>
             Contamos con una gran variedad de productos que puede pedir desde la
-            comodidad de su casa. Nuestro objetivo es facilitarle la vida conn
+            comodidad de su casa. Nuestro objetivo es facilitarle la vida con
             nuestro sistema de pedidos en línea.
           </motion.p>
 
-          <motion.div className="flex flex-col gap-4">
+          <motion.div className="flex flex-col gap-4 col-span-1">
             <motion.div className="grid w-full grid-cols-4 gap-2 ">
               {categories.map((category) => {
                 return (
@@ -77,29 +42,29 @@ const MainBanner = () => {
                     key={category.id}
                     action={() => setSelectedCategory(category.id - 1)}
                   />
-                );
+                )
               })}
             </motion.div>
-            <Link href={'/productos'}>
-            <motion.a
-              className={'bg-emerald-200 text-emerald-600 font-bold py-2 text-center'}
-              whileHover={{ y: -3 }}
-              whileTap={{ y: 0 }}
-            >
-              Haz tu súper
-            </motion.a>
+            <Link href={'/super'}>
+              <motion.a
+                className={
+                  'bg-emerald-200 text-emerald-600 font-bold py-2 text-center'
+                }
+                whileHover={{ y: -3 }}
+                whileTap={{ y: 0 }}
+              >
+                Haz tu súper
+              </motion.a>
             </Link>
           </motion.div>
         </motion.div>
 
+        
+        {/* banner image right side */}
         <motion.div
-          className={'relative aspect-video lg:aspect-auto col-span-2'}
+          className={'relative col-span-4 h-96 lg:h-auto'}
         >
-          <motion.div
-            animate={{y:0}}
-            initial={{y: -10}}
-            className='relative w-full h-full'
-          >
+          
             <Image
               src={categories[selectedCategory].image}
               className={'object-cover'}
@@ -112,17 +77,20 @@ const MainBanner = () => {
                 'absolute bottom-2 right-2 left-2 bg-white h-12 opacity-95 flex justify-between  items-center px-4'
               }
             >
-              <h3 className='font-serif text-2xl font-medium'>{categories[selectedCategory].title}</h3>
+              <h3 className="font-serif text-2xl font-medium">
+                {categories[selectedCategory].title}
+              </h3>
               <Link href={categories[selectedCategory].path}>
-                <a className='px-2 py-1 text-emerald-600 bg-emerald-200'>Saber más</a>
+                <a className="px-2 py-1 text-emerald-600 bg-emerald-200">
+                  Saber más
+                </a>
               </Link>
-            </motion.div>
           </motion.div>
         </motion.div>
-        
+
       </motion.div>
     </motion.main>
-  );
-};
+  )
+}
 
-export default MainBanner;
+export default MainBanner
