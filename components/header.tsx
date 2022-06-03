@@ -65,7 +65,7 @@ const Header = () => {
     <>
       <header className="flex justify-between p-4 lg:p-6">
         <Link href={'/'}>
-          <h1 className="text-2xl font-semibold cursor-pointer">Groceries.</h1>
+          <h1 className="text-2xl font-semibold font-main cursor-pointer">Super.</h1>
         </Link>
 
         <button onClick={toggle}>
