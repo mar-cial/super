@@ -32,7 +32,7 @@ const MainBanner = () => {
             nuestro sistema de pedidos en línea.
           </motion.p>
 
-          <motion.div className="flex flex-col gap-4 col-span-1">
+          <motion.div className="flex flex-col col-span-1 gap-4">
             <motion.div className="grid w-full grid-cols-4 gap-2 ">
               {categories.map((category) => {
                 return (
