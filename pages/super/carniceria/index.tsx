@@ -23,7 +23,7 @@ const CarniceriaPage: NextPage = ({
             <h2>{meat.nombre}</h2>
 
             <Image
-              src={meat.image.src}
+              src={meat.image}
               layout={'responsive'}
               width={100}
               height={100}
