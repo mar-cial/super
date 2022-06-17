@@ -1,9 +1,39 @@
-import { NextPage } from 'next'
+import { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next';
+import Image from 'next/image';
+import meats, { Meat } from '../../../data/meats';
 
-const CarniceriaPage: NextPage = () => {
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      meats,
+    },
+  };
+};
+
+const CarniceriaPage: NextPage = ({
+  meats,
+}: InferGetStaticPropsType<GetStaticProps>) => {
+  const all: Meat[] = meats;
+
   return (
-    <div>CarniceriaPage</div>
-  )
-}
+    <div className="p-10">
+      <div className={'grid grid-cols-3 gap-6'}>
+        {all.map((meat) => (
+          <div className="relative w-32 h-32" key={meat.id}>
+            <h2>{meat.nombre}</h2>
 
-export default CarniceriaPage
+            <Image
+              src={meat.image.src}
+              layout={'responsive'}
+              width={100}
+              height={100}
+              alt={meat.nombre}
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default CarniceriaPage;
