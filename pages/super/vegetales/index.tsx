@@ -27,7 +27,7 @@ const VerdurasPage: NextPage = () => {
               <header className="flex flex-col gap-6">
                 <h3 className="text-3xl font-main">{veg.nombre}</h3>
                 <p className="font-serif text-gray-500 ">
-                  {veg.descripcion.toString}
+                  {veg.descripcion.beneficios}
                 </p>
               </header>
               <div>
