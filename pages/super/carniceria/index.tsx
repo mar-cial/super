@@ -1,6 +1,15 @@
 import { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next';
 import Image from 'next/image';
-import meats, { Meat } from '../../../data/meats';
+import meats from '../../../data/meats.json';
+
+export interface Meat {
+  nombre: string;
+  price_kg: number;
+  image: string;
+  link: string;
+  desc: string;
+  id: string;
+}
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
@@ -23,7 +32,7 @@ const CarniceriaPage: NextPage = ({
             <h2>{meat.nombre}</h2>
 
             <Image
-              src={meat.image}
+              src={`/images/carniceria/${meat.image}.jpeg`}
               layout={'responsive'}
               width={100}
               height={100}

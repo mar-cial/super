@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 import tomahawk from '../../public/images/carniceria/tomahawk.jpeg';
 import veggies from '../../public/images/vegetales/vegetables.jpg';
-import cortes from '../../data/meats';
+import cortes from '../../data/meats.json';
 import veggiesData from '../../data/vegetales.json';
 
 import Link from 'next/link';
