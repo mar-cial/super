@@ -56,14 +56,22 @@ const VegetalIndividual: NextPage = ({
             <h2 className="text-4xl font-bold font-main">{v.nombre}</h2>
           </div>
 
-          <div>
-            <p className="font-mono text-gray-500">Descripción</p>
-            <h3 className="text-xl font-bold font-main">{'Componentes'}</h3>
-            <ul className="grid grid-cols-2 pl-6 list-disc">
-              {v.descripcion.componentes.map((c) => {
-                return <li>{c.replace(/^\w/, (c) => c.toUpperCase())}</li>;
-              })}
-            </ul>
+          <div className="flex flex-col gap-6">
+            <div>
+              <p className="font-mono text-gray-500">Descripción</p>
+              <h3 className="text-xl font-bold font-main">Componentes</h3>
+              <ul className="grid grid-cols-2 pl-6 list-disc">
+                {v.descripcion.componentes.map((c) => {
+                  return (
+                    <li key={c}>{c.replace(/^\w/, (c) => c.toUpperCase())}</li>
+                  );
+                })}
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-xl font-bold font-main">Beneficios</h3>
+              <p>{v.descripcion.beneficios}</p>
+            </div>
           </div>
 
           <div>
