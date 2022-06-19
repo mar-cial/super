@@ -1,72 +1,72 @@
 [
   {
-    "name": "Ajo",
+    "nombre": "Ajo",
     "image": "ajo",
     "price_kg": 50.5,
-    "description": "Componentes principales: agua y carbohidratos, vitamina B y C, además de minerales como calcio, fósforo, magnesio y potasio. Principales beneficios: alivia la gripa, calma dolor de oído y de muelas, es digestivo, protege la piel y reduce los niveles de colesterol malo.",
+    "desc": "Componentes principales: agua y carbohidratos, vitamina B y C, además de minerales como calcio, fósforo, magnesio y potasio. Principales beneficios: alivia la gripa, calma dolor de oído y de muelas, es digestivo, protege la piel y reduce los niveles de colesterol malo.",
     "id": "62e11105-ff28-455f-87c5-d4beb0c567c4"
   },
   {
-    "name": "Alcachofa",
+    "nombre": "Alcachofa",
     "image": "alcachofa",
     "price_kg": 74.3,
-    "description": "Componentes principales: vitaminas del complejo B, minerales como calcio, cobre, fibra, hierro, manganeso y potasio, además de compuestos antioxidantes. Principales beneficios: estimula el apetito, facilita la digestión, protege la salud celular y equilibra el colesterol.",
+    "desc": "Componentes principales: vitaminas del complejo B, minerales como calcio, cobre, fibra, hierro, manganeso y potasio, además de compuestos antioxidantes. Principales beneficios: estimula el apetito, facilita la digestión, protege la salud celular y equilibra el colesterol.",
     "id": "f4d7bd63-1658-407b-9a0e-aa4a7f266eff"
   },
   {
-    "name": "Brócoli",
+    "nombre": "Brócoli",
     "image": "brocoli",
     "price_kg": 40.6,
-    "description": "Componentes principales: vitaminas A, B, C, E y K, betacaroteno, luteína, niacina, riboflavina, tiamina y zeaxantina. También es rico en minerales como calcio, fósforo, hierro, magnesio, potasio y zinc. Principales beneficios: controla los niveles de colesterol, facilita el proceso digestivo, incrementa la resistencia a la insulina y mejora la función metabólica.",
+    "desc": "Componentes principales: vitaminas A, B, C, E y K, betacaroteno, luteína, niacina, riboflavina, tiamina y zeaxantina. También es rico en minerales como calcio, fósforo, hierro, magnesio, potasio y zinc. Principales beneficios: controla los niveles de colesterol, facilita el proceso digestivo, incrementa la resistencia a la insulina y mejora la función metabólica.",
     "id": "577c9a45-a3f2-42f8-b718-46d7a9433576"
   },
   {
-    "name": "Camote",
+    "nombre": "Camote",
     "image": "camote",
     "price_kg": 25.5,
-    "description": "Componentes principales: fibra, vitaminas A, C y B6, minerales como calcio, fósforo, magnesio y potasio, además de antioxidantes. Principales beneficios: alivia los dolores de la artritis, estimula el sistema inmune, nivel el azúcar en la sangre y mejora la digestión.",
+    "desc": "Componentes principales: fibra, vitaminas A, C y B6, minerales como calcio, fósforo, magnesio y potasio, además de antioxidantes. Principales beneficios: alivia los dolores de la artritis, estimula el sistema inmune, nivel el azúcar en la sangre y mejora la digestión.",
     "id": "2c54e8b8-ebe5-4f25-b052-566b36a03d3e"
   },
   {
-    "name": "Cebolla",
+    "nombre": "Cebolla",
     "image": "cebolla",
     "price_kg": 40,
-    "description": "Componentes principales: es rica en vitaminas A, B y C, minerales como calcio, magnesio, fósforo, hierro y potasio. Principales beneficios: alivia malestares estomacales, aumenta las defensas, calma la tos, combate infecciones bacterianas y fúngicas y fortalece la salud cutánea.",
+    "desc": "Componentes principales: es rica en vitaminas A, B y C, minerales como calcio, magnesio, fósforo, hierro y potasio. Principales beneficios: alivia malestares estomacales, aumenta las defensas, calma la tos, combate infecciones bacterianas y fúngicas y fortalece la salud cutánea.",
     "id": "42853d09-5f3b-4ad3-b7e8-43a2775cef68"
   },
   {
-    "name": "Espárragos",
+    "nombre": "Espárragos",
     "image": "esparragos",
     "price_kg": 120.2,
-    "description": "Componentes principales: es bajo en calorías, cuenta con 2.2 g de proteínas, fibra, vitaminas A, C, y E, y minerales como fósforo y potasio. Principales beneficios: aumenta la sensación de saciedad, estimula el desarrollo de bacterias intestinales benéficas, mantiene bajo control los niveles de presión arterial y combate el impacto de los radicales libres.",
+    "desc": "Componentes principales: es bajo en calorías, cuenta con 2.2 g de proteínas, fibra, vitaminas A, C, y E, y minerales como fósforo y potasio. Principales beneficios: aumenta la sensación de saciedad, estimula el desarrollo de bacterias intestinales benéficas, mantiene bajo control los niveles de presión arterial y combate el impacto de los radicales libres.",
     "id": "4f8963ff-7a79-46b6-a349-12a706f8b29a"
   },
   {
-    "name": "Espinacas",
+    "nombre": "Espinacas",
     "image": "espinacas",
     "price_kg": 60.5,
-    "description": "Componentes principales: rica en vitaminas A, E, y K, minerales y antioxidantes. Principales beneficios: estimula los movimientos intestinales, provoca saciedad, fortalece la piel, protege la visión y regula los niveles de presión arterial.",
+    "desc": "Componentes principales: rica en vitaminas A, E, y K, minerales y antioxidantes. Principales beneficios: estimula los movimientos intestinales, provoca saciedad, fortalece la piel, protege la visión y regula los niveles de presión arterial.",
     "id": "fcd8c604-7c20-4969-a67d-99fe7cd9589a"
   },
   {
-    "name": "Kale",
+    "nombre": "Kale",
     "image": "kale",
     "price_kg": 102.59,
-    "description": "Componentes principales: posee vitaminas A, B, C, y K, minerales como calcio, hierro y potasio, fibra dietética, y compuestos antioxidantes. Principales beneficios: controla los niveles de azúcar en la sangre, disminuye la presión arterial, facilita el control de peso, fortalece la piel y el cabello y protege la salud gastrointestinal.",
+    "desc": "Componentes principales: posee vitaminas A, B, C, y K, minerales como calcio, hierro y potasio, fibra dietética, y compuestos antioxidantes. Principales beneficios: controla los niveles de azúcar en la sangre, disminuye la presión arterial, facilita el control de peso, fortalece la piel y el cabello y protege la salud gastrointestinal.",
     "id": "b5e484e0-d1c9-41ee-967e-5aaebcd642aa"
   },
   {
-    "name": "Jitomate",
+    "nombre": "Jitomate",
     "image": "jitomate",
     "price_kg": 90.9,
-    "description": "Componentes principales: rico en vitaminas A, B, C, E  y K, minerales como cobre, fósforo, magnesio y potasio, además de tener un gran contenido en agua. Principales beneficios: evita el envejecimiento de la piel, reduce los niveles de colesterol, estimula la liberación de jugos gástricos y también favorece la absorción de nutrientes.",
+    "desc": "Componentes principales: rico en vitaminas A, B, C, E  y K, minerales como cobre, fósforo, magnesio y potasio, además de tener un gran contenido en agua. Principales beneficios: evita el envejecimiento de la piel, reduce los niveles de colesterol, estimula la liberación de jugos gástricos y también favorece la absorción de nutrientes.",
     "id": "5eab82dc-e6ca-4fb4-a94b-ef21c779df6a"
   },
   {
-    "name": "Zanahoria",
+    "nombre": "Zanahoria",
     "image": "zanahoria",
     "price_kg": 160.7,
-    "description": "Componentes principales: vitaminas A, C y D, minerales como calcio, hierro y potasio. Principales beneficios: calma problemas gastrointestinales, combate los efectos de los radicales libres, fortalece el tejido celular y además retrasa los síntomas del envejecimiento.",
+    "desc": "Componentes principales: vitaminas A, C y D, minerales como calcio, hierro y potasio. Principales beneficios: calma problemas gastrointestinales, combate los efectos de los radicales libres, fortalece el tejido celular y además retrasa los síntomas del envejecimiento.",
     "id": "e9d956ae-a1f1-4627-8566-052936bfd55b"
   }
 ]

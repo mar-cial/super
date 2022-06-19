@@ -1,11 +1,10 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { json } from 'stream/consumers';
 import Footer from '../../../components/Footer';
 import vegData from '../../../data/vegetales.json';
 
-export interface Vegetales {
+export interface Vegetal {
   nombre: string;
   image: string;
   price_kg: number;
@@ -21,9 +20,9 @@ const VerdurasPage: NextPage = () => {
           <div className="relative grid justify-between gap-6 p-4 border-2 md:grid-cols-2">
             <div className="flex flex-col justify-between gap-4">
               <header className="flex flex-col gap-6">
-                <h3 className="text-3xl font-main">{veg.name}</h3>
+                <h3 className="text-3xl font-main">{veg.nombre}</h3>
                 <p className="font-serif text-gray-500 ">
-                  {`${veg.description.slice(0, veg.description.indexOf('.'))}.`}
+                  {`${veg.desc.slice(0, veg.desc.indexOf('.'))}.`}
                 </p>
               </header>
               <div>
