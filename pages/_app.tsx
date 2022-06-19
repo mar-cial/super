@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Groceries</title>
+        <link rel="shortcut icon" href="/superLogo.png" type="image/x-icon" />
       </Head>
       <Header />
       <Component {...pageProps} />
