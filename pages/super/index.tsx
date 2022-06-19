@@ -39,7 +39,7 @@ const Super: NextPage = () => {
 
             <div className="flex flex-col">
               {cortes.map((corte) => (
-                <Link href={`/super/carniceria/${corte.link}`}>
+                <Link href={`/super/carniceria/${corte.link}`} key={corte.id}>
                   <a className={'font-main text-lg'}>{corte.nombre}</a>
                 </Link>
               ))}
@@ -67,7 +67,7 @@ const Super: NextPage = () => {
 
             <div className="flex flex-col">
               {veggiesData.map((veg) => (
-                <Link href={`/super/vegetales/${veg.image}`}>
+                <Link href={`/super/vegetales/${veg.image}`} key={veg.id}>
                   <a className={'font-main text-lg'}>{veg.nombre}</a>
                 </Link>
               ))}
