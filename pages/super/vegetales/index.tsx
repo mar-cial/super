@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Footer from '../../../components/Footer';
 import vegData from '../../../data/vegetales.json';
 
-export interface Vegetales {
+export interface Vegetal {
   nombre: string;
   image: string;
   price_kg: number;

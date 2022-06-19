@@ -5,7 +5,7 @@ import {
   NextPage,
 } from 'next';
 import Image from 'next/image';
-import { Vegetales } from '.';
+import { Vegetal } from '.';
 import veggies from '../../../data/vegetales.json';
 
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -15,7 +15,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const veg = veggies.find((veg) => veg.image == params?.nombre);
+  const veg: Vegetal | undefined = veggies.find(
+    (veg) => veg.image == params?.nombre
+  );
 
   if (!veg) {
     return {
@@ -30,8 +32,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
 const VegetalIndividual: NextPage = ({
   veg,
-}: InferGetStaticPropsType<GetStaticProps>) => {
-  const v: Vegetales = veg;
+}: InferGetStaticPropsType<typeof getStaticProps>) => {
+  const v: Vegetal = veg;
+
   return (
     <div className="flex flex-col gap-4 p-6 md:flex-row">
       <div className="relative p-2 border-2">
