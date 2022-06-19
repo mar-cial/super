@@ -4,11 +4,16 @@ import Link from 'next/link';
 import Footer from '../../../components/Footer';
 import vegData from '../../../data/vegetales.json';
 
+type Descripcion = {
+  componentes: string[];
+  beneficios: string;
+};
+
 export interface Vegetal {
   nombre: string;
   image: string;
-  price_kg: number;
-  description: string;
+  precio_kg: number;
+  descripcion: Descripcion;
   id: string;
 }
 
@@ -22,7 +27,7 @@ const VerdurasPage: NextPage = () => {
               <header className="flex flex-col gap-6">
                 <h3 className="text-3xl font-main">{veg.nombre}</h3>
                 <p className="font-serif text-gray-500 ">
-                  {`${veg.description.slice(0, veg.description.indexOf('.'))}.`}
+                  {veg.descripcion.toString}
                 </p>
               </header>
               <div>

@@ -56,12 +56,12 @@ const VegetalIndividual: NextPage = ({
 
         <div>
           <p className="font-mono text-gray-500">Descripción</p>
-          <p>{v.description}</p>
+          <p>{v.descripcion.beneficios}</p>
         </div>
 
         <div>
           <p className="font-mono text-gray-500">Precio por kilo</p>
-          <p className="text-xl tracking-widest font-main">{`$${v.price_kg.toFixed(
+          <p className="text-xl tracking-widest font-main">{`$${v.precio_kg.toFixed(
             2
           )}`}</p>
         </div>
