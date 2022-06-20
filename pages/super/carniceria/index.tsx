@@ -1,4 +1,10 @@
-import { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next';
+import {
+  GetServerSideProps,
+  GetStaticProps,
+  InferGetServerSidePropsType,
+  InferGetStaticPropsType,
+  NextPage,
+} from 'next';
 import Image from 'next/image';
 import meats from '../../../data/meats.json';
 
@@ -11,7 +17,7 @@ export interface Meat {
   id: string;
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   return {
     props: {
       meats,
@@ -21,7 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
 const CarniceriaPage: NextPage = ({
   meats,
-}: InferGetStaticPropsType<GetStaticProps>) => {
+}: InferGetServerSidePropsType<GetServerSideProps>) => {
   const all: Meat[] = meats;
 
   return (
