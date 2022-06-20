@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { AnimatePresence, motion } from 'framer-motion';
-import { MdAccountCircle} from 'react-icons/md'
+import { MdAccountCircle } from 'react-icons/md';
 
 const Header = () => {
   const [open, setOpen] = useState<Boolean>(false);
@@ -64,20 +64,22 @@ const Header = () => {
 
   return (
     <>
-
       <header className="flex justify-between p-4 lg:p-6">
         <Link href={'/'}>
-          <h1 className="text-2xl font-semibold cursor-pointer font-main">Super.</h1>
+          <h1 className="text-2xl font-semibold cursor-pointer font-main">
+            Súper.
+          </h1>
         </Link>
 
-        <div className='flex items-center gap-2'>
-        <button onClick={toggle} >
-          <FiMenu className="text-2xl" />
-          
-        </button>
-        <Link href={'/cuenta'} passHref>
-          <a><MdAccountCircle className='text-2xl' /></a>
-        </Link>
+        <div className="flex items-center gap-2">
+          <button onClick={toggle}>
+            <FiMenu className="text-2xl" />
+          </button>
+          <Link href={'/cuenta'} passHref>
+            <a>
+              <MdAccountCircle className="text-2xl" />
+            </a>
+          </Link>
         </div>
       </header>
 
