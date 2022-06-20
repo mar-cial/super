@@ -40,7 +40,7 @@ const VegetalIndividual: NextPage = ({
       {/* <-------------------- page container --------------------> */}
       <div className="grid gap-4 p-6 md:grid-cols-3 md:flex-row">
         {/* <-------------------- imagen del vegetal --------------------> */}
-        <div className="relative p-2 border-2 md:col-span-1">
+        <div className="relative md:col-span-1">
           <div className="w-full h-full">
             <Image
               src={`/images/vegetales/${v.image}.jpeg`}
