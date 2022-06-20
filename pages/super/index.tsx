@@ -45,10 +45,24 @@ const Super: NextPage = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4 py-6 text-center">
-              <h2 className="text-3xl font-medium font-main">
-                Cortes premium, seleccionados cuidadosamente por nuestros
-                carniceros expertos.
-              </h2>
+              <header>
+                <h2 className="text-3xl font-medium font-main">
+                  Cortes premium, seleccionados cuidadosamente por nuestros
+                  carniceros expertos.
+                </h2>
+              </header>
+
+              <div className="flex flex-col">
+                <Link
+                  href={'/super/platillos'}
+                  className="font-medium font-main"
+                  passHref
+                >
+                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
+                    ¡Conozca todos nuestros cortes con un click aquí!
+                  </a>
+                </Link>
+              </div>
 
               <div className="flex flex-col">
                 {cortesData.map((corte) => (
@@ -74,10 +88,24 @@ const Super: NextPage = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4 py-6 text-center">
-              <h2 className="text-3xl font-medium font-main">
-                Vegetales frescos escogidos cuidadosamente por verduleros
-                expertos.
-              </h2>
+              <header>
+                <h2 className="text-3xl font-medium font-main">
+                  Vegetales frescos escogidos cuidadosamente por verduleros
+                  expertos.
+                </h2>
+              </header>
+
+              <div className="flex flex-col">
+                <Link
+                  href={'/super/platillos'}
+                  className="font-medium font-main"
+                  passHref
+                >
+                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
+                    ¡Conozca todos nuestros vegetales con un click aquí!
+                  </a>
+                </Link>
+              </div>
 
               <div className="flex flex-col">
                 {veggiesData.map((veg) => (
@@ -89,7 +117,7 @@ const Super: NextPage = () => {
             </div>
           </div>
 
-          {/** sección de bebidas */}
+          {/* <-------------------- Sección de bebidas --------------------> */}
           <div>
             <div className="flex justify-center">
               <div className="w-full md:w-2/3">
