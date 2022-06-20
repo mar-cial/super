@@ -37,9 +37,9 @@ const VegetalIndividual: NextPage = ({
 
   return (
     <>
-      <div className="flex flex-col gap-4 p-6 md:flex-row">
+      <div className="grid grid-cols-2 gap-4 p-6 md:flex-row">
         <div className="relative p-2 border-2">
-          <div className="w-full h-full md:w-96 md:h-96">
+          <div className="w-full h-full">
             <Image
               src={`/images/vegetales/${v.image}.jpeg`}
               layout="responsive"

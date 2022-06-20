@@ -54,7 +54,7 @@ const Super: NextPage = () => {
 
               <div className="flex flex-col">
                 <Link
-                  href={'/super/platillos'}
+                  href={'/super/carniceria'}
                   className="font-medium font-main"
                   passHref
                 >
@@ -97,7 +97,7 @@ const Super: NextPage = () => {
 
               <div className="flex flex-col">
                 <Link
-                  href={'/super/platillos'}
+                  href={'/super/vegetales'}
                   className="font-medium font-main"
                   passHref
                 >
