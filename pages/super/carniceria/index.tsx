@@ -60,7 +60,7 @@ const CarniceriaPage: NextPage = ({
               <h2 className="text-2xl font-medium font-main">{meat.nombre}</h2>
               <p className="italic text-gray-400">{`"${meat.desc.slice(
                 0,
-                120
+                150
               )}..."`}</p>
               <div className="flex items-center justify-center w-full text-center text-red-400 bg-red-200">
                 <Link href={`/super/carniceria/${meat.image}`} passHref>
