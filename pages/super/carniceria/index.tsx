@@ -31,7 +31,17 @@ const CarniceriaPage: NextPage = ({
   const all: Meat[] = meats;
 
   return (
-    <div className="p-10">
+    <div className="flex flex-col gap-6">
+      <div className="relative">
+        <div className="relative z-20">
+          <video loop autoPlay muted className={'w-full'}>
+            <source src={'/videos/bbq.mp4'} type={'video/mp4'} />
+          </video>
+        </div>
+        <div className="fixed z-30 bg-black">
+          <h2>hello</h2>
+        </div>
+      </div>
       <div className={'grid grid-cols-3 gap-6'}>
         {all.map((meat) => (
           <div className="relative w-32 h-32" key={meat.id}>
