@@ -7,9 +7,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Footer from '../../../components/Footer';
 import SectionRibbon from '../../../components/SectionRibbon';
-import meats from '../../../data/meats.json';
+import carnes from '../../../data/meats.json';
 
-export interface Meat {
+export interface Carne {
   nombre: string;
   price_kg: number;
   image: string;
@@ -21,15 +21,15 @@ export interface Meat {
 export const getServerSideProps: GetServerSideProps = async () => {
   return {
     props: {
-      meats,
+      carnes: carnes,
     },
   };
 };
 
 const CarniceriaPage: NextPage = ({
-  meats,
+  carnes,
 }: InferGetServerSidePropsType<GetServerSideProps>) => {
-  const all: Meat[] = meats;
+  const all: Carne[] = carnes;
 
   return (
     <>
