@@ -39,7 +39,7 @@ const VegetalIndividual: NextPage = ({
     <>
       {/* <-------------------- page container --------------------> */}
       <div className="grid gap-4 p-6 md:grid-cols-3 md:flex-row">
-        {/* <-------------------- imagen del vegetal --------------------> */}
+        {/* <-------------------- imagen del vegetal COL 1--------------------> */}
         <div className="relative md:col-span-1">
           <div className="w-full h-full">
             <Image
@@ -52,7 +52,7 @@ const VegetalIndividual: NextPage = ({
           </div>
         </div>
 
-        {/* <-------------------- Información del vegetal --------------------> */}
+        {/* <-------------------- Información básica del vegetal COL 2--------------------> */}
         <div className="flex flex-col w-full gap-6 p-4 border-2 md:col-span-2">
           <div>
             <p className="font-mono text-gray-500">Nombre</p>
