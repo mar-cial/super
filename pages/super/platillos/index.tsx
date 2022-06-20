@@ -1,5 +1,4 @@
 // date created dd/mm/yy: 20 / 06 / 2022 - 12 : 20 : 54 by César Marcial
-
 import { NextPage } from 'next';
 
 //react / nextjs imports

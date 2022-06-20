@@ -144,7 +144,7 @@ const Super: NextPage = () => {
 
               <div className="flex flex-col">
                 <Link
-                  href={'/super/bebidas'}
+                  href={'/super/platillos'}
                   className="font-medium font-main"
                   passHref
                 >
