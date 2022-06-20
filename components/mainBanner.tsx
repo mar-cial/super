@@ -14,9 +14,9 @@ const MainBanner = () => {
       animate={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -10 }}
     >
-      <motion.div className={'grid md:grid-cols-2 p-6 gap-4'}>
-        {/* banner text left side*/}
-        <motion.div className={'relative flex flex-col '}>
+      <motion.div className={'grid md:grid-cols-5 p-6 gap-4'}>
+        {/* <-------------------- banner left side --------------------> */}
+        <motion.div className={'relative flex flex-col md:col-span-2'}>
           <motion.div className="flex flex-col justify-between h-full gap-12 ">
             <motion.div className="flex flex-col gap-6 2xl:pt-12">
               <motion.h2
@@ -31,7 +31,7 @@ const MainBanner = () => {
               </motion.p>
             </motion.div>
 
-            <motion.div className="flex flex-col col-span-1 gap-4">
+            <motion.div className="flex flex-col w-full col-span-1 gap-4">
               <motion.div className="grid w-full grid-cols-4 gap-2 ">
                 {categories.map((category) => {
                   return (
@@ -44,28 +44,31 @@ const MainBanner = () => {
                   );
                 })}
               </motion.div>
-              <Link href={'/super'}>
-                <motion.a
-                  className={
-                    'bg-emerald-200 text-emerald-600 font-bold py-2 text-center'
-                  }
-                  whileHover={{ y: -3 }}
-                  whileTap={{ y: 0 }}
-                >
-                  Haz tu súper
-                </motion.a>
-              </Link>
+
+              <motion.div className="flex w-full ">
+                <Link href={'/super'} passHref>
+                  <motion.a
+                    className={
+                      'bg-emerald-200 text-emerald-600 font-bold text-center py-4 w-full'
+                    }
+                    whileHover={{ y: -3 }}
+                    whileTap={{ y: 0 }}
+                  >
+                    Haz tu súper
+                  </motion.a>
+                </Link>
+              </motion.div>
             </motion.div>
           </motion.div>
         </motion.div>
 
-        {/* banner image right side */}
-        <motion.div className={'relative'}>
+        {/* <-------------------- banner image right side --------------------> */}
+        <motion.div className={'relative md:col-span-3'}>
           <Image
             src={categories[selectedCategory].image}
             className={'object-cover'}
             width={1000}
-            height={700}
+            height={730}
             layout={'responsive'}
             alt={categories[selectedCategory].title}
             priority

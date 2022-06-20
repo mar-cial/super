@@ -21,7 +21,7 @@ const Super: NextPage = () => {
   return (
     <>
       <div>
-        {/** Page banner */}
+        {/* <-------------------- page banner --------------------> */}
         <header className="flex flex-col items-center justify-center gap-6 p-10">
           <h2 className="text-5xl font-main">¡Súper!</h2>
           <p className="text-center">
@@ -30,7 +30,7 @@ const Super: NextPage = () => {
           </p>
         </header>
 
-        {/** sección de carnes */}
+        {/* <-------------------- sección de carnes --------------------> */}
         <div className="relative">
           <div>
             <div className="flex justify-center">
@@ -60,7 +60,7 @@ const Super: NextPage = () => {
             </div>
           </div>
 
-          {/** sección de vegetales */}
+          {/* <-------------------- Sección de vegetales --------------------> */}
           <div>
             <div className="flex justify-center">
               <div className="w-full md:w-2/3">
