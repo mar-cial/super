@@ -16,6 +16,7 @@ import { Carne } from './index';
 // assets
 import { AiFillStar } from 'react-icons/ai';
 import { GrDocumentPdf } from 'react-icons/gr';
+import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
 
 // static paths and props
 export const getStaticPaths: GetStaticPaths = async () => {
@@ -84,7 +85,13 @@ const renderUserRatingStars = ({ user_rating }: Carne): ReactNode => {
   let allStarts: JSX.Element[] = [];
 
   for (let i = 0; i < Math.floor(user_rating); i++) {
-    allStarts.push(<AiFillStar className="text-3xl fill-yellow-400" key={i} />);
+    allStarts.push(<FaStar className="text-3xl fill-yellow-400" key={i} />);
+  }
+
+  if (user_rating > 4.4 && user_rating < 5.0) {
+    allStarts.push(
+      <FaStarHalfAlt className="text-3xl fill-yellow-400" key={'half'} />
+    );
   }
 
   return allStarts;
