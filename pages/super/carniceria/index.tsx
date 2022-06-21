@@ -16,6 +16,8 @@ export interface Carne {
   link: string;
   desc: string;
   id: string;
+  available_quality: string[];
+  user_rating: number;
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
