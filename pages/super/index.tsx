@@ -5,7 +5,6 @@ import Image from 'next/image';
 // images
 import tomahawk from '../../public/images/carniceria/tomahawk.jpeg';
 import veggiesImg from '../../public/images/vegetales/vegetables.jpg';
-import bebidasImg from '../../public/images/bebidas/bebidas.jpg';
 import platillosImg from '../../public/images/platillos/meals.jpg';
 
 // data
@@ -113,39 +112,6 @@ const Super: NextPage = () => {
                     <a className={'font-main text-lg'}>{veg.nombre}</a>
                   </Link>
                 ))}
-              </div>
-            </div>
-          </div>
-
-          {/* <-------------------- Sección de bebidas --------------------> */}
-          <div>
-            <div className="flex justify-center">
-              <div className="w-full md:w-2/3">
-                <Image
-                  src={bebidasImg}
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col gap-4 py-6 text-center">
-              <h2 className="text-3xl font-medium font-main">
-                Bebidas originales concoccionadas por maestros en bebidas
-                preparadas.
-              </h2>
-
-              <div className="flex flex-col">
-                <Link
-                  href={'/super/bebidas'}
-                  className="font-medium font-main"
-                  passHref
-                >
-                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
-                    ¡Conozca nuestra selección de bebidas con un click aquí!
-                  </a>
-                </Link>
               </div>
             </div>
           </div>
