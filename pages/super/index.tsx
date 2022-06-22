@@ -19,138 +19,137 @@ import Footer from '../../components/Footer';
 const Super: NextPage = () => {
   return (
     <>
-      <div>
-        {/* <-------------------- page banner --------------------> */}
-        <header className="flex flex-col items-center justify-center gap-6 p-10">
-          <h2 className="text-5xl font-main">¡Súper!</h2>
-          <p className="text-center">
-            Haga su super sin salir de su casa. <br />
-            ¡Seleccione alguna de nuestras categorías para saber más!
-          </p>
-        </header>
+      {/* <-------------------- page banner --------------------> */}
+      <header className="flex flex-col items-center justify-center gap-6 p-10">
+        <h2 className="text-5xl font-main">¡Súper!</h2>
+        <p className="text-center">
+          Haga su super sin salir de su casa. <br />
+          ¡Seleccione alguna de nuestras categorías para saber más!
+        </p>
+      </header>
 
-        {/* <-------------------- sección de carnes --------------------> */}
-        <div className="relative">
-          <div>
-            <div className="flex justify-center">
-              <div className="w-full md:w-2/3">
-                <Image
-                  src={tomahawk}
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col gap-4 py-6 text-center">
-              <header>
-                <h2 className="text-3xl font-medium font-main">
-                  Cortes premium, seleccionados cuidadosamente por nuestros
-                  carniceros expertos.
-                </h2>
-              </header>
-
-              <div className="flex flex-col">
-                <Link
-                  href={'/super/carniceria'}
-                  className="font-medium font-main"
-                  passHref
-                >
-                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
-                    ¡Conozca todos nuestros cortes con un click aquí!
-                  </a>
-                </Link>
-              </div>
-
-              <div className="flex flex-col">
-                {cortesData.map((corte) => (
-                  <Link href={`/super/carniceria/${corte.link}`} key={corte.id}>
-                    <a className={'font-main text-lg'}>{corte.nombre}</a>
-                  </Link>
-                ))}
-              </div>
+      {/* <-------------------- sección de carnes --------------------> */}
+      <div className="relative">
+        <div>
+          <div className="flex justify-center">
+            <div className="w-full md:w-2/3">
+              <Image
+                src={tomahawk}
+                width={100}
+                height={100}
+                layout="responsive"
+                className="object-cover"
+              />
             </div>
           </div>
-
-          {/* <-------------------- Sección de vegetales --------------------> */}
-          <div>
-            <div className="flex justify-center">
-              <div className="w-full md:w-2/3">
-                <Image
-                  src={veggiesImg}
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col gap-4 py-6 text-center">
-              <header>
-                <h2 className="text-3xl font-medium font-main">
-                  Vegetales frescos escogidos cuidadosamente por verduleros
-                  expertos.
-                </h2>
-              </header>
-
-              <div className="flex flex-col">
-                <Link
-                  href={'/super/vegetales'}
-                  className="font-medium font-main"
-                  passHref
-                >
-                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
-                    ¡Conozca todos nuestros vegetales con un click aquí!
-                  </a>
-                </Link>
-              </div>
-
-              <div className="flex flex-col">
-                {veggiesData.map((veg) => (
-                  <Link href={`/super/vegetales/${veg.image}`} key={veg.id}>
-                    <a className={'font-main text-lg'}>{veg.nombre}</a>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* <-------------------- Sección de comidas / plastillos preparadas --------------------> */}
-          <div>
-            <div className="flex justify-center">
-              <div className="w-full md:w-2/3">
-                <Image
-                  src={platillosImg}
-                  width={100}
-                  height={100}
-                  layout="responsive"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-center gap-4 py-6 text-center">
-              <h2 className="text-2xl font-medium md:text-3xl md:w-1/2 font-main">
-                Platillos preparados específicamente a base de sus necesidades.
-                Cada platillo está medido a la perfección por nuestros cocineros
-                para proporcionar los nutrientes que usted necesite.
+          <div className="flex flex-col gap-4 py-6 text-center">
+            <header>
+              <h2 className="text-3xl font-medium font-main">
+                Cortes premium, seleccionados cuidadosamente por nuestros
+                carniceros expertos.
               </h2>
+            </header>
 
-              <div className="flex flex-col">
-                <Link
-                  href={'/super/platillos'}
-                  className="font-medium font-main"
-                  passHref
-                >
-                  <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
-                    ¡Conozca nuestros planes de nutrición con un click aquí!
-                  </a>
+            <div className="flex flex-col">
+              <Link
+                href={'/super/carniceria'}
+                className="font-medium font-main"
+                passHref
+              >
+                <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
+                  ¡Conozca todos nuestros cortes con un click aquí!
+                </a>
+              </Link>
+            </div>
+
+            <div className="flex flex-col">
+              {cortesData.map((corte) => (
+                <Link href={`/super/carniceria/${corte.link}`} key={corte.id}>
+                  <a className={'font-main text-lg'}>{corte.nombre}</a>
                 </Link>
-              </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* <-------------------- Sección de vegetales --------------------> */}
+        <div>
+          <div className="flex justify-center">
+            <div className="w-full md:w-2/3">
+              <Image
+                src={veggiesImg}
+                width={100}
+                height={100}
+                layout="responsive"
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 py-6 text-center">
+            <header>
+              <h2 className="text-3xl font-medium font-main">
+                Vegetales frescos escogidos cuidadosamente por verduleros
+                expertos.
+              </h2>
+            </header>
+
+            <div className="flex flex-col">
+              <Link
+                href={'/super/vegetales'}
+                className="font-medium font-main"
+                passHref
+              >
+                <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
+                  ¡Conozca todos nuestros vegetales con un click aquí!
+                </a>
+              </Link>
+            </div>
+
+            <div className="flex flex-col">
+              {veggiesData.map((veg) => (
+                <Link href={`/super/vegetales/${veg.image}`} key={veg.id}>
+                  <a className={'font-main text-lg'}>{veg.nombre}</a>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* <-------------------- Sección de comidas / plastillos preparadas --------------------> */}
+        <div>
+          <div className="flex justify-center">
+            <div className="w-full md:w-2/3">
+              <Image
+                src={platillosImg}
+                width={100}
+                height={100}
+                layout="responsive"
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-4 py-6 text-center">
+            <h2 className="text-2xl font-medium md:text-3xl md:w-1/2 font-main">
+              Platillos preparados específicamente a base de sus necesidades.
+              Cada platillo está medido a la perfección por nuestros cocineros
+              para proporcionar los nutrientes que usted necesite.
+            </h2>
+
+            <div className="flex flex-col">
+              <Link
+                href={'/super/platillos'}
+                className="font-medium font-main"
+                passHref
+              >
+                <a className="font-semibold md:text-xl font-main hover:underline hover:underline-offset-4 hover:text-yellow-600">
+                  ¡Conozca nuestros planes de nutrición con un click aquí!
+                </a>
+              </Link>
             </div>
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
