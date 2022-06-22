@@ -9,8 +9,8 @@ import { NextPage } from 'next';
 // data imports
 
 // start of component
-const AccountPage: NextPage = () => {
-  return <div>AccountPage</div>;
+const CuentaPage: NextPage = () => {
+  return <div>CuentaPage</div>;
 };
 
-export default AccountPage;
+export default CuentaPage;

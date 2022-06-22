@@ -25,8 +25,8 @@ const Header = () => {
       link: '/nosotros',
     },
     {
-      text: 'Contacto',
-      link: '/contacto',
+      text: 'Cuenta',
+      link: '/cuenta',
     },
   ];
 
@@ -75,11 +75,6 @@ const Header = () => {
           <button onClick={toggle}>
             <FiMenu className="text-2xl" />
           </button>
-          <Link href={'/cuenta'} passHref>
-            <a>
-              <MdAccountCircle className="text-2xl" />
-            </a>
-          </Link>
         </div>
       </header>
 
