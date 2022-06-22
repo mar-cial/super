@@ -65,10 +65,10 @@ const Header = () => {
   return (
     <>
       <header className="flex justify-between p-4 lg:p-6">
-        <Link href={'/'}>
-          <h1 className="text-2xl font-semibold cursor-pointer font-main">
+        <Link href={'/'} passHref>
+          <a className="text-2xl font-semibold cursor-pointer font-main">
             Súper.
-          </h1>
+          </a>
         </Link>
 
         <div className="flex items-center gap-2">

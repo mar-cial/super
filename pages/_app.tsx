@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Groceries</title>
+        <title>Súper</title>
         <link rel="shortcut icon" href="/superLogo.png" type="image/x-icon" />
       </Head>
       <Header />
