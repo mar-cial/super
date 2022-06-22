@@ -31,13 +31,6 @@ const categories: Category[] = [
   },
   {
     id: 3,
-    title: 'Bebidas',
-    icon: <GiSodaCan className="text-5xl" />,
-    image: beveragespic,
-    path: '/super/bebidas',
-  },
-  {
-    id: 4,
     title: 'Platillos',
     icon: <GiHotMeal className="text-5xl" />,
     image: mealspic,

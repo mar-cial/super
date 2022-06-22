@@ -14,6 +14,7 @@ const MainBanner = () => {
       animate={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -10 }}
     >
+      {/* <-------------------- MAIN BANNER CONTAINER --------------------> */}
       <motion.div className={'grid md:grid-cols-5 p-6 gap-4'}>
         {/* <-------------------- banner left side --------------------> */}
         <motion.div className={'relative flex flex-col md:col-span-2'}>
@@ -32,7 +33,7 @@ const MainBanner = () => {
             </motion.div>
 
             <motion.div className="flex flex-col w-full col-span-1 gap-4">
-              <motion.div className="grid w-full grid-cols-4 gap-2 ">
+              <motion.div className="grid w-full grid-cols-3 gap-2 ">
                 {categories.map((category) => {
                   return (
                     <CategoryTile
