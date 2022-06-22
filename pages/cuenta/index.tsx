@@ -26,7 +26,7 @@ interface Transaccion {
   id: string;
 }
 
-interface ITransaccionRow {
+interface ITransRow {
   t: Transaccion;
 }
 
@@ -40,18 +40,18 @@ const DetalleRow: FC<IDetalleRow> = ({ title, content }) => {
   );
 };
 
-const TransaccionRow: FC<ITransaccionRow> = (t) => {
+const TransaccionRow = ({ date, total, short_id, id }: Transaccion) => {
   return (
     <div className="flex justify-between py-1 border-b-2">
       <div>
         <p className="font-mono text-gray-400">Fecha</p>
-        <h3 className="text-lg font-main">{t.t.date}</h3>
+        <h3 className="text-lg font-main">{date}</h3>
         <p className="font-mono text-gray-400">Total de la orden</p>
-        <h3 className="text-lg font-main">{`$${t.t.total.toFixed(2)}`}</h3>
+        <h3 className="text-lg font-main">{`$${total.toFixed(2)}`}</h3>
       </div>
 
       <div className="flex items-center justify-center">
-        <Link href={`/cuenta/recibos/${t.t.short_id}`} passHref>
+        <Link href={`/cuenta/recibos/${short_id}`} passHref>
           <a>
             <button className="px-4 py-2 bg-emerald-200 text-emerald-500">
               Ver recibo
@@ -127,7 +127,12 @@ const CuentaPage: NextPage = () => {
             {/* <-------------------- TRANSACCIONES CONTAINER --------------------> */}
             <div className="gap-2 py-1">
               {transactions.map((t) => (
-                <TransaccionRow t={t} />
+                <TransaccionRow
+                  short_id={t.short_id}
+                  date={t.date}
+                  total={t.total}
+                  id={t.id}
+                />
               ))}
             </div>
           </div>
