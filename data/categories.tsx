@@ -3,7 +3,6 @@ import { TbMeat } from 'react-icons/tb';
 import meatpic from '../public/images/meat.jpg';
 import fruitspic from '../public/images/fruits.jpeg';
 import mealspic from '../public/images/meals.jpg';
-import beveragespic from '../public/images/beverages.jpg';
 import { StaticImageData } from 'next/image';
 
 export type Category = {
