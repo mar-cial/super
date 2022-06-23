@@ -1,122 +1,1390 @@
 [
   {
-    "total": 90.89225065274104,
-    "short_id": "82a67",
-    "date": "2022 Jun 22",
-    "id": "82a6787e-ec71-4e49-b7b3-0515cb930518"
+    "total": 2364.3850612235,
+    "short_id": "cb9d5",
+    "date": "2022-Jun-24",
+    "id": "cb9d5170-68e9-4e7a-90b1-665fc0e20150",
+    "meat_bought": [
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.9421673663525538,
+        "total_partida": 582.6502099057661
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 0.21907056457525487,
+        "total_partida": 131.55187402744056
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 1.9946009644876594,
+        "total_partida": 1396.7193253824835
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 1.9525622749958298,
+        "total_partida": 234.69798545449873
+      },
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 0.7359084883651494,
+        "total_partida": 18.76566645331131
+      }
+    ]
   },
   {
-    "total": 194.71111227440974,
-    "short_id": "6fc60",
-    "date": "2022 May 22",
-    "id": "6fc60fa6-5976-4e7d-b3b3-f86752c172d8"
+    "total": 1777.577512071375,
+    "short_id": "6c46a",
+    "date": "2022-May-25",
+    "id": "6c46a6d8-9e5c-43f9-8773-cf2ee99be246",
+    "meat_bought": [
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 2.174035377870965,
+        "total_partida": 1305.5082444115146
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.9854064427021522,
+        "total_partida": 246.35161067553804
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 2.5587464859923186,
+        "total_partida": 65.24803539280413
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 2.02440296385442,
+        "total_partida": 150.41314021438342
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 0.11063235838432131,
+        "total_partida": 10.056481377134808
+      }
+    ]
   },
   {
-    "total": 334.1964004888732,
-    "short_id": "38f3c",
-    "date": "2022 Apr 22",
-    "id": "38f3c932-bea0-4ef4-b89d-530d5888e94f"
+    "total": 7551.677278211109,
+    "short_id": "f30b0",
+    "date": "2022-May-06",
+    "id": "f30b0c4f-e03d-47a8-bd63-cd2a3b05e849",
+    "meat_bought": [
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 0.7961696321864605,
+        "total_partida": 478.09986412796957
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 3.100524697278956,
+        "total_partida": 930.1574091836868
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 2.841859105215603,
+        "total_partida": 1706.5363926819696
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 3.024449426693554,
+        "total_partida": 756.1123566733885
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.18055989396635305,
+        "total_partida": 72.22395758654122
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.3261244012868638,
+        "total_partida": 530.4497605147455
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 3.8383690266794632,
+        "total_partida": 1919.1845133397317
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 0.3075604119335124,
+        "total_partida": 184.6900273660742
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 0.26699500494105216,
+        "total_partida": 24.269845949141644
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.7183864706469065,
+        "total_partida": 597.5447058329578
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 1.7831393293248663,
+        "total_partida": 90.04853613090575
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 3.5310889478330654,
+        "total_partida": 262.35990882399676
+      }
+    ]
   },
   {
-    "total": 193.73530159810576,
-    "short_id": "4e8cf",
-    "date": "2022 Mar 22",
-    "id": "4e8cfe6c-bc29-4bba-927d-19760375e637"
+    "total": 1575.2603709282462,
+    "short_id": "a94e5",
+    "date": "2022-Apr-11",
+    "id": "a94e5840-759f-4d42-be0c-08fdb180a5e6",
+    "meat_bought": [
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 1.2275477109909096,
+        "total_partida": 859.5902846213845
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 3.7213140056883627,
+        "total_partida": 187.9263572872623
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.284030672181701,
+        "total_partida": 527.7437290195993
+      }
+    ]
   },
   {
-    "total": 493.4751180311455,
-    "short_id": "69b7a",
-    "date": "2022 Feb 22",
-    "id": "69b7afe3-c979-4876-bc1c-95d2cd74a7cd"
+    "total": 7324.883103201267,
+    "short_id": "90a74",
+    "date": "2022-Mar-07",
+    "id": "90a74a3c-4c10-4202-a362-110556385498",
+    "meat_bought": [
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.382370935341418,
+        "total_partida": 691.1854676707089
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.390188299304762,
+        "total_partida": 97.5470748261905
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 3.692816994954022,
+        "total_partida": 1846.408497477011
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 3.503848489512982,
+        "total_partida": 875.9621223782455
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 2.7352622450961017,
+        "total_partida": 683.8155612740254
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 1.6976107624741683,
+        "total_partida": 934.5347247420297
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 3.989751155347164,
+        "total_partida": 1994.875577673582
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 2.579006853137257,
+        "total_partida": 65.76467475500006
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 2.3999222465938495,
+        "total_partida": 97.4368432117103
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 0.41091924304470506,
+        "total_partida": 37.35255919276369
+      }
+    ]
   },
   {
-    "total": 493.1438207202035,
-    "short_id": "6d3b3",
-    "date": "2022 Jan 22",
-    "id": "6d3b36a1-ecfd-4680-8cdb-36280aaf94d9"
+    "total": 7648.490664630014,
+    "short_id": "7c63b",
+    "date": "2022-Jan-26",
+    "id": "7c63b471-fca8-42c7-a5ee-92814de845da",
+    "meat_bought": [
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.7562867099968535,
+        "total_partida": 878.1433549984267
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.0815292044560518,
+        "total_partida": 432.61168178242076
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 0.223874054946657,
+        "total_partida": 67.1622164839971
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 3.2050180320564547,
+        "total_partida": 1924.613328249901
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 2.748038066791756,
+        "total_partida": 1924.3136562709271
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.266670676521143,
+        "total_partida": 1798.3022074248893
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 2.8951377478441795,
+        "total_partida": 263.16802127903594
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 2.1772694954935754,
+        "total_partida": 88.39714151703916
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 3.6578607890091117,
+        "total_partida": 271.779056623377
+      }
+    ]
   },
   {
-    "total": 276.4750100924755,
-    "short_id": "f2cf2",
-    "date": "2021 Dec 22",
-    "id": "f2cf2af7-0df4-4077-95b0-57c09354ff9b"
+    "total": 6527.948862450457,
+    "short_id": "38be2",
+    "date": "2021-Dec-26",
+    "id": "38be2370-fe4b-416c-a28c-d2e7efd4dd3d",
+    "meat_bought": [
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 3.2645653063242,
+        "total_partida": 1632.2826531621
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.1262664093559773,
+        "total_partida": 1721.0096583504655
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.6845119914137345,
+        "total_partida": 273.8047965654938
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.614079260290105,
+        "total_partida": 807.0396301450526
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 0.606990401146027,
+        "total_partida": 182.0971203438081
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 2.0870885427661565,
+        "total_partida": 626.126562829847
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 0.6210659620731943,
+        "total_partida": 341.89681212129346
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.5289143786432727,
+        "total_partida": 132.22859466081817
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 0.4798671865692626,
+        "total_partida": 239.93359328463129
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 2.0081079112366065,
+        "total_partida": 101.40944951744862
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 3.90843433415084,
+        "total_partida": 290.3966710274074
+      },
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 2.970633395737031,
+        "total_partida": 179.72332044209037
+      }
+    ]
   },
   {
-    "total": 139.6339386784815,
-    "short_id": "d66f0",
-    "date": "2021 Nov 22",
-    "id": "d66f0071-32bc-4441-b791-2f9d7a42e0cc"
+    "total": 7094.609381619855,
+    "short_id": "48c77",
+    "date": "2021-Dec-03",
+    "id": "48c77819-916a-45af-9552-72b6d6403388",
+    "meat_bought": [
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.0772744137208297,
+        "total_partida": 1694.0395647533167
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 3.4687268795615287,
+        "total_partida": 867.1817198903822
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 3.351916928221956,
+        "total_partida": 2347.1798289874246
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.3064040508335852,
+        "total_partida": 122.56162033343408
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 2.898686005884926,
+        "total_partida": 1595.7266462396517
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.7720529168838205,
+        "total_partida": 92.80076060943523
+      },
+      {
+        "nombre": "Kale",
+        "precio_kg": 102.59,
+        "cantidad_comprada": 2.1304046241500236,
+        "total_partida": 218.55821039155094
+      },
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 1.7025837914193083,
+        "total_partida": 43.41588668119236
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 2.8286285933366906,
+        "total_partida": 113.14514373346762
+      }
+    ]
   },
   {
-    "total": 317.3257426861301,
-    "short_id": "40010",
-    "date": "2021 Oct 22",
-    "id": "400103f1-3073-40c1-a755-a389c35d6365"
+    "total": 4246.193848287097,
+    "short_id": "f334d",
+    "date": "2021-Nov-10",
+    "id": "f334db54-db2d-42ee-9999-1d6497be3b89",
+    "meat_bought": [
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.4997628806927006,
+        "total_partida": 599.9051522770802
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 3.678304296110767,
+        "total_partida": 1471.3217184443067
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 0.39659093236884263,
+        "total_partida": 238.15285488749
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 2.828699525591392,
+        "total_partida": 1557.1990888380612
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 0.8723340580255754,
+        "total_partida": 261.7002174076726
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.9809884894549651,
+        "total_partida": 117.9148164324868
+      }
+    ]
   },
   {
-    "total": 498.89347838513777,
-    "short_id": "e9671",
-    "date": "2021 Sep 22",
-    "id": "e96718c0-4c21-4d3b-9d83-6fac965d5451"
+    "total": 2942.4487693233923,
+    "short_id": "a369d",
+    "date": "2021-Sep-23",
+    "id": "a369dd41-47b3-4bf8-905a-ebde25a3332d",
+    "meat_bought": [
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.133936379355578,
+        "total_partida": 340.18091380667335
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 3.4881138866258694,
+        "total_partida": 1046.434165987761
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 3.6375647547594827,
+        "total_partida": 1455.025901903793
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 2.497117031218219,
+        "total_partida": 63.67648429606458
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 0.9282825832275101,
+        "total_partida": 37.131303329100405
+      }
+    ]
   },
   {
-    "total": 105.28737828922434,
-    "short_id": "b8683",
-    "date": "2021 Aug 22",
-    "id": "b868324d-2caf-408d-b4f2-86f777b40f47"
+    "total": 3537.9687025149924,
+    "short_id": "eb66b",
+    "date": "2021-Sep-01",
+    "id": "eb66ba2d-e320-495c-897f-ae5c3c1713ee",
+    "meat_bought": [
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 0.665349055200254,
+        "total_partida": 465.91067590397785
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 1.5863576666115273,
+        "total_partida": 952.6077788002221
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 2.19602524977057,
+        "total_partida": 878.4100999082281
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 0.028405749823702416,
+        "total_partida": 1.1532734428423181
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.4678512819641987,
+        "total_partida": 557.2837010116467
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 2.6191641407263457,
+        "total_partida": 314.8235297153068
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 0.6265500560274396,
+        "total_partida": 25.43793227471405
+      },
+      {
+        "nombre": "Kale",
+        "precio_kg": 102.59,
+        "cantidad_comprada": 1.7570567414030474,
+        "total_partida": 180.25645110053864
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 0.4661006629183758,
+        "total_partida": 74.90237653098299
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 0.8281479143517908,
+        "total_partida": 33.12591657407163
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 0.8599032777690266,
+        "total_partida": 34.912073077422484
+      },
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 0.7507801637270225,
+        "total_partida": 19.144894175039074
+      }
+    ]
   },
   {
-    "total": 164.14233144345152,
-    "short_id": "27ccd",
-    "date": "2021 Jul 22",
-    "id": "27ccd903-ae1d-4190-a22a-63e9415da78f"
+    "total": 9923.38476617541,
+    "short_id": "a1863",
+    "date": "2021-Aug-08",
+    "id": "a18634ae-e048-4aeb-8f0c-be4c56d9ba58",
+    "meat_bought": [
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.5678355009967675,
+        "total_partida": 227.134200398707
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.1637217601987708,
+        "total_partida": 581.8608800993854
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 0.9229535027032747,
+        "total_partida": 508.0859032381527
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 0.7884262436114823,
+        "total_partida": 394.21312180574114
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 1.814363144082176,
+        "total_partida": 1089.5250680213467
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 3.173930046618747,
+        "total_partida": 1586.9650233093735
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.8742550748207062,
+        "total_partida": 349.70202992828246
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 1.757092841902866,
+        "total_partida": 967.2796094675277
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 2.3277429772293563,
+        "total_partida": 581.9357443073391
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.8978995023227614,
+        "total_partida": 2145.7936760286802
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 3.214315274094121,
+        "total_partida": 1285.7261096376485
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 1.0524772327809102,
+        "total_partida": 63.67487258324507
+      },
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 1.024878356951055,
+        "total_partida": 26.1343981022519
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 1.5525454811269006,
+        "total_partida": 115.35412924772871
+      }
+    ]
   },
   {
-    "total": 332.7129579472468,
-    "short_id": "fc089",
-    "date": "2021 Jun 22",
-    "id": "fc089ef2-ca2b-4861-b54d-6e5e9be032e2"
+    "total": 4568.508149748082,
+    "short_id": "92dd5",
+    "date": "2021-Jun-23",
+    "id": "92dd59e1-4790-4a51-9f8d-0878895c33bd",
+    "meat_bought": [
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 2.426937793177135,
+        "total_partida": 606.7344482942838
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.1722906360418388,
+        "total_partida": 351.68719081255165
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 3.042442017348599,
+        "total_partida": 1216.9768069394395
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.7921552653093205,
+        "total_partida": 198.03881632733012
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 1.5695125476300946,
+        "total_partida": 864.0166574703671
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.5590519860781695,
+        "total_partida": 223.62079443126783
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 0.9025107147017729,
+        "total_partida": 451.25535735088647
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 3.3152079191215376,
+        "total_partida": 246.31994839073022
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 2.221928500214083,
+        "total_partida": 112.2073892608112
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 2.476295677790471,
+        "total_partida": 297.65074047041463
+      }
+    ]
   },
   {
-    "total": 215.28971063594344,
-    "short_id": "3dc99",
-    "date": "2021 May 22",
-    "id": "3dc9961f-5547-4c2b-88a6-51dcaf4f4a2d"
+    "total": 5602.0418824558965,
+    "short_id": "dbfbe",
+    "date": "2021-May-28",
+    "id": "dbfbe431-a8a8-47e3-89ba-21aceecc5ab8",
+    "meat_bought": [
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.4639486839593336,
+        "total_partida": 439.1846051878001
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 3.3670414347992925,
+        "total_partida": 1010.1124304397878
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 2.598827199489368,
+        "total_partida": 1299.413599744684
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.1185750304127633,
+        "total_partida": 559.2875152063816
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.9848820867973973,
+        "total_partida": 246.22052169934932
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 0.10021578855095102,
+        "total_partida": 50.10789427547551
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 2.660319402476615,
+        "total_partida": 1330.1597012383074
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 3.1775692643644913,
+        "total_partida": 381.94382557661186
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 1.359825296861987,
+        "total_partida": 123.60811948475462
+      },
+      {
+        "nombre": "Kale",
+        "precio_kg": 102.59,
+        "cantidad_comprada": 1.5791370465225074,
+        "total_partida": 162.00366960274405
+      }
+    ]
   },
   {
-    "total": 207.65775753408087,
-    "short_id": "5256a",
-    "date": "2021 Apr 22",
-    "id": "5256aaf5-2970-47df-b1f9-7be2f8a0fc78"
+    "total": 7033.347921353036,
+    "short_id": "e653f",
+    "date": "2021-May-11",
+    "id": "e653fe7c-bcd3-4109-883d-9a13788f2bcd",
+    "meat_bought": [
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 3.8011769752126106,
+        "total_partida": 950.2942438031527
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 2.4430283283789227,
+        "total_partida": 1710.7305869473407
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 2.0496257082929414,
+        "total_partida": 512.4064270732354
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.9719814504727373,
+        "total_partida": 2186.575788485242
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.7548807456969227,
+        "total_partida": 701.952298278769
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Kale",
+        "precio_kg": 102.59,
+        "cantidad_comprada": 2.491897041142422,
+        "total_partida": 255.6437174508011
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 1.4513208563128868,
+        "total_partida": 73.29170324380078
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 2.4593050649004953,
+        "total_partida": 98.3722025960198
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 0.43307537577016963,
+        "total_partida": 17.582860256268887
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 1.2477417852761095,
+        "total_partida": 200.51210489387077
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.7191209177311354,
+        "total_partida": 86.43833431128247
+      },
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 3.9594653555909476,
+        "total_partida": 239.54765401325233
+      }
+    ]
   },
   {
-    "total": 92.90705664498242,
-    "short_id": "fb57c",
-    "date": "2021 Mar 22",
-    "id": "fb57ca8b-395c-4698-9530-7f726ca61453"
+    "total": 2901.154284110056,
+    "short_id": "0e9f5",
+    "date": "2021-Apr-06",
+    "id": "0e9f5a95-b660-4f28-916b-7f007aab0b54",
+    "meat_bought": [
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.4796030143222274,
+        "total_partida": 443.88090429666823
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 0.9058757667828508,
+        "total_partida": 634.3395056896912
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 0.38894693233675315,
+        "total_partida": 116.68407970102595
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.6034419604125203,
+        "total_partida": 641.3767841650081
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 0.7890238683550764,
+        "total_partida": 47.73594403548213
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 2.1371498518726053,
+        "total_partida": 158.79023399413458
+      },
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 3.428106927996867,
+        "total_partida": 207.40046914381045
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 3.6231178818744314,
+        "total_partida": 329.34141546238584
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 3.198530100758433,
+        "total_partida": 161.52577008830087
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 1.3184115093416164,
+        "total_partida": 97.9579751440821
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 0.37452362896378233,
+        "total_partida": 18.91344326267101
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.35946555013972925,
+        "total_partida": 43.20775912679546
+      }
+    ]
   },
   {
-    "total": 359.5303853440633,
-    "short_id": "9a346",
-    "date": "2021 Feb 22",
-    "id": "9a346368-dc34-47dc-8756-71c8282e9c38"
+    "total": 12240.23046900109,
+    "short_id": "6afcb",
+    "date": "2021-Mar-03",
+    "id": "6afcb4c8-8a01-4fba-981b-fca99089e2c1",
+    "meat_bought": [
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 2.934392322578966,
+        "total_partida": 2054.808223885921
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 1.3056283144561038,
+        "total_partida": 652.814157228052
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 3.9446362011128207,
+        "total_partida": 2762.2314998292527
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.8938806138781704,
+        "total_partida": 223.4701534695426
+      },
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 2.8473868533881945,
+        "total_partida": 1423.6934266940973
+      },
+      {
+        "nombre": "Tomahawk",
+        "precio_kg": 600.5,
+        "cantidad_comprada": 1.3973861194288357,
+        "total_partida": 839.1303647170158
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 2.4209616722060145,
+        "total_partida": 968.3846688824058
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 3.6086656909320527,
+        "total_partida": 2526.96815007517
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.628237696941971,
+        "total_partida": 583.0577978985747
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 1.500766515558056,
+        "total_partida": 60.030660622322245
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 3.587225756126492,
+        "total_partida": 145.6413656987356
+      }
+    ]
   },
   {
-    "total": 455.59390374581994,
-    "short_id": "5b163",
-    "date": "2021 Jan 22",
-    "id": "5b163c1c-d923-42c3-88b9-b6d53a816732"
+    "total": 7541.093446199653,
+    "short_id": "69865",
+    "date": "2021-Feb-05",
+    "id": "69865d41-cc97-41de-8f73-8819cdec69c2",
+    "meat_bought": [
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 1.833468416569333,
+        "total_partida": 1283.8862587026754
+      },
+      {
+        "nombre": "T-bone",
+        "precio_kg": 700.25,
+        "cantidad_comprada": 0.4045958150167833,
+        "total_partida": 283.3182194655025
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 3.765673414651632,
+        "total_partida": 1129.7020243954896
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 1.069701098880714,
+        "total_partida": 427.8804395522856
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 1.4868623771330662,
+        "total_partida": 446.05871313991986
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 3.461584066915467,
+        "total_partida": 865.3960167288668
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 3.9402193513380124,
+        "total_partida": 1576.087740535205
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 3.6368223530332906,
+        "total_partida": 183.65952882818118
+      },
+      {
+        "nombre": "Ajo",
+        "precio_kg": 50.5,
+        "cantidad_comprada": 2.8290106111530484,
+        "total_partida": 142.86503586322894
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 0.9754040240100974,
+        "total_partida": 39.016160960403894
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 2.148087426879197,
+        "total_partida": 85.92349707516789
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.5475797855557254,
+        "total_partida": 65.8190902237982
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 3.8327828149623895,
+        "total_partida": 348.3999578800812
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 2.3851282871090675,
+        "total_partida": 96.83620845662814
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.5236126595657695,
+        "total_partida": 566.2445543922191
+      }
+    ]
   },
   {
-    "total": 346.46759925195823,
-    "short_id": "78788",
-    "date": "2020 Dec 22",
-    "id": "78788a85-af46-405e-82a6-fd6d555f2821"
+    "total": 8118.278334968811,
+    "short_id": "20a68",
+    "date": "2021-Jan-01",
+    "id": "20a68b8b-11ce-4ed7-9080-f2ebd2e7a788",
+    "meat_bought": [
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 1.5094367248950402,
+        "total_partida": 830.9449170547197
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 0.9441268886560565,
+        "total_partida": 519.7418522051591
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.954732033327001,
+        "total_partida": 238.68300833175024
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 2.4528746074127037,
+        "total_partida": 981.1498429650815
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 2.7324231303603925,
+        "total_partida": 1092.969252144157
+      },
+      {
+        "nombre": "Picaña",
+        "precio_kg": 300,
+        "cantidad_comprada": 3.6420109589493097,
+        "total_partida": 1092.6032876847928
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 2.000862099433697,
+        "total_partida": 1101.4745857382502
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 0.8064269255678977,
+        "total_partida": 443.93802252512774
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 1.9468467966746357,
+        "total_partida": 1071.7391615693869
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 0.19370232345647656,
+        "total_partida": 77.48092938259063
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Kale",
+        "precio_kg": 102.59,
+        "cantidad_comprada": 3.0408172656576733,
+        "total_partida": 311.95744328382074
+      },
+      {
+        "nombre": "Camote",
+        "precio_kg": 25.5,
+        "cantidad_comprada": 0.5476064462810808,
+        "total_partida": 13.96396438016756
+      },
+      {
+        "nombre": "Jitomate",
+        "precio_kg": 90.9,
+        "cantidad_comprada": 2.9670457233036087,
+        "total_partida": 269.7044562482981
+      },
+      {
+        "nombre": "Brócoli",
+        "precio_kg": 40.6,
+        "cantidad_comprada": 1.7716160457021555,
+        "total_partida": 71.92761145550752
+      }
+    ]
   },
   {
-    "total": 205.99312073804407,
-    "short_id": "e8880",
-    "date": "2020 Nov 22",
-    "id": "e8880566-a4d1-4689-afcd-1890191cd4ed"
+    "total": 4692.750501968629,
+    "short_id": "6f27e",
+    "date": "2020-Dec-03",
+    "id": "6f27e99d-9942-4596-a6d9-13469e269a7b",
+    "meat_bought": [
+      {
+        "nombre": "Rib-eye",
+        "precio_kg": 500,
+        "cantidad_comprada": 0.10338630910086483,
+        "total_partida": 51.69315455043241
+      },
+      {
+        "nombre": "New York",
+        "precio_kg": 550.5,
+        "cantidad_comprada": 3.7389676398482137,
+        "total_partida": 2058.3016857364414
+      },
+      {
+        "nombre": "Arrachera",
+        "precio_kg": 250,
+        "cantidad_comprada": 0.9128594006446892,
+        "total_partida": 228.2148501611723
+      },
+      {
+        "nombre": "Cowboy",
+        "precio_kg": 400,
+        "cantidad_comprada": 2.454417047211012,
+        "total_partida": 981.7668188844048
+      }
+    ],
+    "vegetable_bought": [
+      {
+        "nombre": "Zanahoria",
+        "precio_kg": 160.7,
+        "cantidad_comprada": 3.080729217610649,
+        "total_partida": 495.0731852700312
+      },
+      {
+        "nombre": "Espinacas",
+        "precio_kg": 60.5,
+        "cantidad_comprada": 2.079338425075007,
+        "total_partida": 125.79997471703793
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio_kg": 74.3,
+        "cantidad_comprada": 0.831291701501087,
+        "total_partida": 61.76497342153076
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 0.9090731106227228,
+        "total_partida": 109.27058789685128
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 1.630213661303623,
+        "total_partida": 195.9516820886955
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 3.2724653099769316,
+        "total_partida": 130.89861239907725
+      },
+      {
+        "nombre": "Espárragos",
+        "precio_kg": 120.2,
+        "cantidad_comprada": 1.9228826372826662,
+        "total_partida": 231.1304930013765
+      },
+      {
+        "nombre": "Cebolla",
+        "precio_kg": 40,
+        "cantidad_comprada": 0.5721120960394261,
+        "total_partida": 22.884483841577044
+      }
+    ]
   }
 ]
