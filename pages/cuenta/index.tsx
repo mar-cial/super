@@ -4,6 +4,7 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { FC } from 'react';
+import Footer from '../../components/Footer';
 
 // components
 import TituloCartaDeUsuario from '../../components/TituloCartaDeUsuario';
@@ -14,22 +15,12 @@ import TituloCartaDeUsuario from '../../components/TituloCartaDeUsuario';
 import transactions from '../../data/transactions.json';
 
 // interfaces
+import { Transaction } from '../../model/transactions';
+
 interface IDetalleRow {
   title: string;
   content: string;
 }
-
-interface Transaccion {
-  total: number;
-  short_id: string;
-  date: string;
-  id: string;
-}
-
-interface ITransRow {
-  t: Transaccion;
-}
-
 // local components
 const DetalleRow: FC<IDetalleRow> = ({ title, content }) => {
   return (
@@ -40,7 +31,7 @@ const DetalleRow: FC<IDetalleRow> = ({ title, content }) => {
   );
 };
 
-const TransaccionRow = ({ date, total, short_id, id }: Transaccion) => {
+const TransaccionRow = ({ date, total, short_id }: Transaction) => {
   return (
     <div className="flex justify-between py-1 border-b-2">
       <div>
@@ -51,7 +42,7 @@ const TransaccionRow = ({ date, total, short_id, id }: Transaccion) => {
       </div>
 
       <div className="flex items-center justify-center">
-        <Link href={`/cuenta/recibos/${short_id}`} passHref>
+        <Link href={`/cuenta/${short_id}`} passHref>
           <a>
             <button className="px-4 py-2 bg-emerald-200 text-emerald-500">
               Ver recibo
@@ -83,7 +74,7 @@ const CuentaPage: NextPage = () => {
         </div>
 
         {/* <-------------------- CARD CONTAINER --------------------> */}
-        <div className="grid gap-2 md:grid-cols-3 h-96">
+        <div className="grid gap-2 md:grid-cols-2 h-96">
           {/* <-------------------- Detalles --------------------> */}
           <div className="flex flex-col gap-4 p-6 rounded-md shadow-lg">
             <header>
@@ -132,16 +123,11 @@ const CuentaPage: NextPage = () => {
                   date={t.date}
                   total={t.total}
                   id={t.id}
+                  meat_bought={[]}
+                  vegetable_bought={[]}
                 />
               ))}
             </div>
-          </div>
-
-          {/* <-------------------- pedidos más populares --------------------> */}
-          <div className="flex flex-col items-center gap-4 p-6 rounded-md shadow-lg">
-            <header>
-              <TituloCartaDeUsuario text="Sus pedidos favoritos" />
-            </header>
           </div>
         </div>
       </div>
