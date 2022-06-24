@@ -1,4 +1,5 @@
 import { AiOutlineShoppingCart, AiOutlineMail } from 'react-icons/ai';
+import contact from '../lib/contact';
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center justify-center gap-4 text-white bg-gray-800 h-96">
@@ -13,7 +14,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <button>
+        <button onClick={contact}>
           <AiOutlineMail className="text-3xl" />
         </button>
       </div>
