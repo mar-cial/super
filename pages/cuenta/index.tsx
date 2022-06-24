@@ -4,7 +4,6 @@
 import { NextPage } from 'next';
 import Link from 'next/link';
 import { FC } from 'react';
-import Footer from '../../components/Footer';
 
 // components
 import TituloCartaDeUsuario from '../../components/TituloCartaDeUsuario';
@@ -13,14 +12,14 @@ import TituloCartaDeUsuario from '../../components/TituloCartaDeUsuario';
 
 // data imports
 import transactions from '../../data/transactions.json';
-
-// interfaces
 import { Transaction } from '../../model/transactions';
 
+// interfaces
 interface IDetalleRow {
   title: string;
   content: string;
 }
+
 // local components
 const DetalleRow: FC<IDetalleRow> = ({ title, content }) => {
   return (
@@ -54,11 +53,14 @@ const TransaccionRow = ({ date, total, short_id }: Transaction) => {
   );
 };
 
+// fn
+import contact from '../../lib/contact';
+
 // start of component
 const CuentaPage: NextPage = () => {
   return (
     <>
-      <div className="grid gap-4 p-6">
+      <div className="grid gap-4 p-4 md:p-6">
         {/* <-------------------- HEADER --------------------> */}
         <div>
           <p className="text-gray-400 text-mono font-main">Su cuenta</p>
@@ -74,7 +76,7 @@ const CuentaPage: NextPage = () => {
         </div>
 
         {/* <-------------------- CARD CONTAINER --------------------> */}
-        <div className="grid gap-2 md:grid-cols-2 h-96">
+        <div className="grid gap-2 md:grid-cols-2 md:h-96">
           {/* <-------------------- Detalles --------------------> */}
           <div className="flex flex-col gap-4 p-6 rounded-md shadow-lg">
             <header>
@@ -103,14 +105,17 @@ const CuentaPage: NextPage = () => {
                 content="Tarjeta de débito con terminación 5555"
               />
 
-              <button className="py-2 bg-emerald-200 text-emerald-500">
+              <button
+                className="py-2 bg-emerald-200 text-emerald-500"
+                onClick={contact}
+              >
                 Cambiar detalles
               </button>
             </div>
           </div>
 
           {/* <-------------------- Transacciones recientes container --------------------> */}
-          <div className="flex flex-col gap-4 p-6 overflow-scroll rounded-md shadow-lg ">
+          <div className="flex flex-col h-screen gap-4 p-6 overflow-scroll rounded-md shadow-lg md:h-auto">
             <header>
               <TituloCartaDeUsuario text="Transacciones recientes" />
             </header>
