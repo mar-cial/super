@@ -53,15 +53,15 @@ const Recibo = ({ trans }: InferGetStaticPropsType<GetStaticProps>) => {
   const t: Transaction = trans;
   return (
     <>
-      <div className="flex justify-center py-6">
-        <div className="flex flex-col items-center w-1/3 ">
+      <div className="flex justify-center p-4 md:py-6">
+        <div className="flex flex-col items-center md:w-1/3 ">
           <header className="pb-12 text-center">
             <h1 className="text-4xl md:text-6xl font-main">Recibo</h1>
             <h2>{t.id}</h2>
           </header>
 
           <div className="w-full">
-            <div className="pb-4 ">
+            <div className="pb-4">
               <div className="flex items-end justify-between">
                 <h3 className="text-2xl italic font-main">Total</h3>
                 <p className="text-2xl italic font-main">{`$${t.total.toFixed(
@@ -76,10 +76,11 @@ const Recibo = ({ trans }: InferGetStaticPropsType<GetStaticProps>) => {
               </div>
             </div>
 
-            <div className="flex justify-between">
+            {/* <-------------------- Carne comprada container --------------------> */}
+            <div className="grid grid-cols-2 gap-4 ">
               <div>
                 <header className="pb-2">
-                  <h2 className="text-lg font-main">Carne comprada</h2>
+                  <h2 className=" font-main">Carne comprada</h2>
                 </header>
                 <div>
                   <ul className="flex flex-col gap-2">
@@ -107,9 +108,9 @@ const Recibo = ({ trans }: InferGetStaticPropsType<GetStaticProps>) => {
                 </div>
               </div>
 
-              <div>
+              <div className="text-right">
                 <header className="pb-2">
-                  <h2 className="text-lg font-main">Vegetales comprados</h2>
+                  <h2 className="font-main">Vegetales comprados</h2>
                 </header>
                 <div>
                   <ul className="flex flex-col gap-2">
